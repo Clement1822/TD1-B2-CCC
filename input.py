@@ -3,8 +3,9 @@
 - Une fois le programme mis au point, poussez votre travail sur votre dépôt git et appelez l'enseignant avant de passer à l'exercice suivant."""
 
 def saisie():
-    """Lecture depuis l'entrée standard"""
-    return ""
+    pseudo=input("quel est votre pseudo ? ")
+    print("Bonjour",pseudo)
+    return 
 
 if __name__ == "__main__":
     saisie()
